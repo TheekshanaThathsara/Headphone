@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav li{
+    list-style: none;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.nav-container{
+    padding: 20px 0;
+}
+
+.nav-container h2{
+    color: rgb(29, 29, 29);
+}
+
+.nav-container .nav{
+    justify-self: flex-end;
+}
